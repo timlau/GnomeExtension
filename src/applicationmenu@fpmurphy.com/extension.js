@@ -104,6 +104,9 @@ ApplicationsButton.prototype = {
 
 function main(extensionMeta) {
 
+    hotSpotButton = Main.panel.button;
+    hotSpotButton.destroy();
+
     let userExtensionLocalePath = extensionMeta.path + '/locale';
     Gettext.bindtextdomain("applications_button", userExtensionLocalePath);
     Gettext.textdomain("applications_button");

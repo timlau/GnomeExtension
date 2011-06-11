@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.0"],
+    "uuid": "themeselector@fpmurphy.com",	
+    "name": "GNOME Shell Theme Selector",
+    "url": "http://fpmurphy.com/themeselector",
+    "description": "Enables user to change custom GNOME Shell themes"
+}

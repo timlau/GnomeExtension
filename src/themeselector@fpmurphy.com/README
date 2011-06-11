@@ -1,0 +1,37 @@
+                         README
+                         ------
+
+This is v0.9 of the themeselector iextensioni, dated April 30th 2011.
+
+To use this extension the following schema must exist in 
+/usr/share/glib-2.0/schemas.
+
+   <?xml version="1.0" encoding="UTF-8"?>
+   <schemalist gettext-domain="gnome-shell-extensions">
+     <schema path="/org/gnome/shell/extensions/user-theme/" id="org.gnome.shell.extensions.user-theme">
+       <key type="s" name="name">
+         <default>""</default>
+         <summary>Theme name</summary>
+         <description>The name of the current shell theme</description>
+       </key>
+     </schema>
+   </schemalist>
+
+The schema must be named org.gnome.shell.extensions.user-theme.gschema.xml
+and compiled using glib-compile-schemas.
+
+Place all theme directories in $HOME/.themes/
+
+Places extension.js and metadata.json in:
+
+   $HOME/.local/share/gnome-shell/extensions/themeselector@fpmurphy.com
+
+Create the themeselector@fpmurphy.com if necessary.
+
+Restart your GNOME shell to load the extension.
+
+This extension has been tested on Fedora 15 Beta.
+
+Send any bug reports to fpm[AT]fpmurphy[DOT]com.
+
+Enjoy!
