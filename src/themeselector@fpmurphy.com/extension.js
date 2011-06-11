@@ -123,7 +123,12 @@ ThemeSelector.prototype = {
         this._themes = [];
         
         let _home_dir = GLib.get_home_dir();
+        let _sysdirs = GLib.get_system_data_dirs();
         this._themesDirs = [GLib.build_filenamev([_home_dir, '/.themes'])];
+        // Add system wide theme dirs
+		for (let i = 0; i < _sysdirs.length; i++) {
+			this._themesDirs.push(_sysdirs[i] + '/themes');
+		}
 
         // retrieve the current theme if set
         this._settings = new Gio.Settings({ schema: GSETTINGS_SCHEMA });
