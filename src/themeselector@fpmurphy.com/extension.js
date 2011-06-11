@@ -173,7 +173,7 @@ ThemeSelector.prototype = {
         // move these to constants
         let gridSpacing = 10;
         let gridPadding = 25;
-        let numColumns = 3;
+        let numColumns = 5;
         let numDrop = 40;
 
         let w = Math.floor((this._grid.width - ( (numColumns - 1) * gridSpacing + 2 * gridPadding )) / numColumns);
