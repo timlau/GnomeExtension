@@ -1,0 +1,8 @@
+{
+   "shell-version": ["3.0"], 
+   "uuid": "moreicons@rasmil.dk", 
+   "name": "Add more icons to Status Tray", 
+   "description": "Add more icons to Status Tray",
+   "url": "http://fedora.rasmil.dk",
+   "original-authors": "Tim Lauridsen"
+}

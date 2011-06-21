@@ -16,9 +16,8 @@ Requires:       gnome-shell >= 3.0.1
 
 
 %description
-This extension autohides the topbar, use the left hotspot corner to
-turn it on/off and the move the mouse the the top of the screen to hide
-the topbar.
+This extension autohides the topbar.
+Double click on the topbar to turn auto hide on/off
 
 
 %prep

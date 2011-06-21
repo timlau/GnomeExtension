@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema path="/org/gnome/shell/extensions/more-icons/" id="org.gnome.shell.extensions.more-icons">
+    <key type="as" name="icons">
+      <default>[]</default>
+      <summary>Enable extra status bar icons</summary>
+      <description>The name of the icons to add to the status bar</description>
+    </key>
+  </schema>
+</schemalist>
